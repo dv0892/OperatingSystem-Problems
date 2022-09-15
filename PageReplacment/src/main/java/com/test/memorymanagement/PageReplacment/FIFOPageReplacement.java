@@ -28,7 +28,7 @@ public class FIFOPageReplacement implements PageReplacementAlgo {
 			
 		}
 		
-		System.out.println( " With a " + frames + " frames : Page Faults " + pageFaults);
+		System.out.println( " With a " + frames + " frames : FIFO Strategy : Page Faults " + pageFaults);
 		
 		return pageFaults;
 	}
